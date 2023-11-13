@@ -8,9 +8,9 @@ def index():
     return 'index.html'
     # return render_template('index.html')
 
-@app.route('/solve',methods='POST')
+@app.route('/solve',methods=['POST'])
 def solve():
-    equation = request.form['eq']
+    # equation = request.form['eq']
     return 'hello'
 
 
